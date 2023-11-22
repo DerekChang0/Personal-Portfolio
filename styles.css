@@ -8,6 +8,12 @@ h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
 html{
     background-color: peachpuff;
 }
@@ -17,5 +23,23 @@ html{
 p{
     max-width: 50%;
     padding-left: 25%;
-    padding-top: 3rem;
+}
+
+#reusmeImages{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.crop{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    display: block;
+    margin:auto;
+}
+
+.crop img{
+    width: 600px;
+    height: 1100px;
+    margin: -280px 0 0 -100px;
 }
