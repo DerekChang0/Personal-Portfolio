@@ -25,6 +25,25 @@ p{
     padding-left: 25%;
 }
 
+#navButtons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-left: 25%;
+}
+
+a{
+    background-color: #B9DEFF;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2)
+}
+
 #reusmeImages{
     display: flex;
     justify-content: space-evenly;
